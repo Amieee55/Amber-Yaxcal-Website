@@ -1,0 +1,12 @@
+body{
+    background-color: #EFEFE6;
+}
+.btn, .btn-startup{
+    color: #412032;
+    background-color: #FEC485;
+    box-shadow: 1px 3px 7px rgba(65, 32, 50, 0.75);
+    text-align: center;
+}
+.btn:hover{
+    background-color: #C6C4D2;
+}
