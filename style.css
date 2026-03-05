@@ -1,12 +1,37 @@
-body{
-    background-color: #EFEFE6;
+body {
+  background-color: #efefe6;
+  font-family: jost;
 }
-.btn, .btn-startup{
-    color: #412032;
-    background-color: #FEC485;
-    box-shadow: 1px 3px 7px rgba(65, 32, 50, 0.75);
-    text-align: center;
+.d-grid {
+  flex-direction: column;
 }
-.btn:hover{
-    background-color: #C6C4D2;
+.btn {
+  color: #412032;
+  background-color: #fec485;
+  box-shadow: 1px 3px 7px rgba(65, 32, 50, 0.75);
+  text-align: center;
+  font-family: funnel display;
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: #c6c4d2;
+}
+.navbar {
+  background-color: #714972;
+}
+.navbar {
+  font-family: funnel display;
+}
+.nav-link,
+.navbar-brand {
+  color: #efefe6;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #c6c4d2;
+}
+
+footer {
+  background-color: #412032;
 }
