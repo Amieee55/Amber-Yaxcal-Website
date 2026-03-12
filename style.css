@@ -1,11 +1,11 @@
-body {
+body{
   background-color: #efefe6;
-  font-family: jost;
+  font-family: Jost;
 }
 .d-grid {
   flex-direction: column;
 }
-.btn {
+.btn{
   color: #412032;
   background-color: #fec485;
   box-shadow: 1px 3px 7px rgba(65, 32, 50, 0.75);
@@ -17,11 +17,11 @@ body {
   font-family: funnel display;
   font-weight: 700;
 }
-.btn:hover {
+.btn:hover{
   background-color: #c6c4d2;
 }
 .btnGroup{
-  padding: 20em 15em 20em 15em;
+  padding: 12em 15em 2em 15em;
 }
 .text-center{
   font-family: funnel display;
@@ -30,26 +30,20 @@ body {
 }
 .navbar-toggler{
   border-color: #412032;
-  background-color: #7D4F8B;
+  background-color: #6d437a;
 }
-.navbar-toggler-icon{
-  background-color: #c6c4d2;
-  margin: 3.5px;
-  width:20px;
-  height: 4px;
-}
+
 .card-img-top{
   height: 20em;
 }
 .card{
   margin: 2em;
 }
-.navbar {
-  background-color: #714972;
-}
-.navbar {
+.navbar{
+  background-color: #7D4F8B;
   font-family: funnel display;
 }
+
 .nav-link,
 .navbar-brand {
   color: #efefe6;
@@ -75,7 +69,12 @@ body {
   padding-right: 20em;
   
 }
+#imgBody{
+  background-image: url(Background-Image-Index.png);
+  background-size: cover;
+}
 footer {
   margin-top: 20px;
   background-color: #412032;
 }
+
