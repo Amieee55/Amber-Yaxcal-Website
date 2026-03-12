@@ -9,12 +9,40 @@ body {
   color: #412032;
   background-color: #fec485;
   box-shadow: 1px 3px 7px rgba(65, 32, 50, 0.75);
-  text-align: center;
+  display: flex;
+  border-radius: 30px;
+  flex-direction: column;
+  margin: 1.5em 0 1.5em 0;
+  padding: 1px;
   font-family: funnel display;
   font-weight: 700;
 }
 .btn:hover {
   background-color: #c6c4d2;
+}
+.btnGroup{
+  padding: 20em 15em 20em 15em;
+}
+.text-center{
+  font-family: funnel display;
+  font-weight: 750;
+  margin-top: 1em;
+}
+.navbar-toggler{
+  border-color: #412032;
+  background-color: #7D4F8B;
+}
+.navbar-toggler-icon{
+  background-color: #c6c4d2;
+  margin: 3.5px;
+  width:20px;
+  height: 4px;
+}
+.card-img-top{
+  height: 20em;
+}
+.card{
+  margin: 2em;
 }
 .navbar {
   background-color: #714972;
@@ -26,12 +54,28 @@ body {
 .navbar-brand {
   color: #efefe6;
 }
-
 .nav-link:hover,
 .navbar-brand:hover {
   color: #c6c4d2;
 }
-
+.formText{
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+.carousel-item{
+  height: 32rem;
+  background-color: #777;
+}
+.container{
+  background-color: #c6c4d23b;
+  border-radius: 20px;
+}
+.accordion-button{
+  margin: 1em;
+  padding-right: 20em;
+  
+}
 footer {
+  margin-top: 20px;
   background-color: #412032;
 }
