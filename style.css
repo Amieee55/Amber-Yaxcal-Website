@@ -43,7 +43,9 @@ body{
   background-color: #7D4F8B;
   font-family: funnel display;
 }
-
+.active{
+  color: #FEC485 !important;
+}
 .nav-link,
 .navbar-brand {
   color: #efefe6;
@@ -64,11 +66,22 @@ body{
   background-color: #c6c4d23b;
   border-radius: 20px;
 }
-.accordion-button{
-  margin: 1em;
-  padding-right: 20em;
-  
+#bookProfile{
+  display: flex;
+  justify-content: center;
 }
+#aboutPhoto{
+  width: 50em;
+  height: auto;
+  margin: 2em;
+}
+#aboutText{
+  padding-top: 2.5em;
+  padding-right: 2em;
+  line-height: 1.5em;
+  margin: 2em;
+}
+
 #imgBody{
   background-image: url(Background-Image-Index.png);
   background-size: cover;
