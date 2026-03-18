@@ -6,9 +6,6 @@ body{
   flex-direction: column;
 }
 .btnGame {
-  color: #412032;
-  background-color: #fec485;
-  box-shadow: 1px 3px 7px rgba(65, 32, 50, 0.75);
   display: flex;
   border-radius: 30px;
   flex-direction: column;
@@ -16,14 +13,26 @@ body{
   padding: 1px;
   font-family: funnel display;
   font-weight: 700;
+  color: #412032;
+  background-color: #fec485;
+  box-shadow: 1px 3px 7px rgba(65, 32, 50, 0.75);
 }
-.btn:hover{
-  background-color: #c6c4d2;
+.btnGame::after{
+  height: 100%;
+  left: -25%;
+  top: 0;
+  transform: skew(45 deg);
+  transition-duration: 0.4s;
+  transform-origin: top left;
+  width: 0;
+}
+.btnGame:hover::after{
+  height: 100%;
+  width: 135%;
 }
 .btnGroup{
   padding: 20em 15em 2em 15em;
 }
-
 .text-center{
   font-family: funnel display;
   font-weight: 750;
@@ -80,12 +89,22 @@ body{
 .nav-link,
 .navbar-brand {
   color: #efefe6;
+  position: relative;
+  text-decoration: none;
 }
-.nav-link:hover,
-.navbar-brand:hover {
-  color: #FEC485;
-  transition: all 0.3s ease;
-  text-decoration: underline;
+.nav-link::after{ /* Animated underline for Nav links */
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  transform: translateX(-50%);
+  transition: width, .3s ease;
+  background-color: #8f8c9e;
+}
+.nav-link:hover::after{ /* Underline to expand for Nav link */
+  width: 100%;
 }
 .formText{
   margin-top: .5em;
@@ -154,7 +173,7 @@ body{
   background-repeat: no-repeat; 
   background-image:
   url(Background.png),
-  linear-gradient(60deg,#7f6aa8, #cfcaf0, #ffdcb8);
+  url(Background-wave.jpeg);
 }
 #webIcon{
   width: auto;
